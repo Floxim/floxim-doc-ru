@@ -6,7 +6,11 @@
 
 <h2>2. Устройство репозиториев</h2>
 
-https://github.com/Floxim/floxim-demosite - демо-сайт, подключающий все нужно как git-субмодули. Через некоторое время должен превратиться в Composer-проект.
+https://github.com/Floxim/site-phototeam - демо-сайт. Создать проект в папке "phototest.loc" можно вот так:
+<pre>
+composer create-project floxim/site-phototeam phototest.loc -s dev
+</pre>
+Далее открываем в браузере и указываем параметры БД и проч. в инсталлере.
 <br />
 <br />
 https://github.com/Floxim/floxim - ядро системы<br/>
